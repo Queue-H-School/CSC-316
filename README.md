@@ -8,8 +8,16 @@
 *Cumulative Exams*</br>
 Midterm 1: Oct 8</br>
 Midterm 2: Nov 12</br>
+<<<<<<< HEAD
 Final: Dec 14 (11:20-1:50)</br>
 
 **Tips**</br>
 Classic Riley course</br>
 Attendance is 20%</br>
+=======
+Final: Dec 14 (11:20-1:50)
+
+**Tips**</br>
+Classic Riley course</br>
+Attendance is 20%
+>>>>>>> 65be504134e70e6322d466a1ca320c3ed815c3f1
