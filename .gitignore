@@ -1,7 +1,7 @@
 # Project specific
 .idea/
 # course info that doesn't need to be public
-Course_Overview.md
+Course-Overview.md
 
 # Prerequisites
 *.d
