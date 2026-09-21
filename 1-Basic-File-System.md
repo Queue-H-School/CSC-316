@@ -27,6 +27,14 @@
 `scp filename user@ip.address:filepath` secure copy</br>
 `exit` to log out of shell</br>
 
+<u>Piping</u></br>
+\- passes the output from one linux command as the input for the next</br>
+ex: `ls | grep ".txt"`</br>
+
+<u>Redirection</u></br>
+\- passes the output of a command into a file</br>
+\- `>` to overwrite and `>>` to append</br>
+
 **ENV Vars**
 `$PATH` stores directory shortcuts</br>
 `$HOME` establishes home dir</br>
@@ -45,7 +53,6 @@ ex: lrwxr----- (symbolic link, owner has rwx, group has r only)</br>
 ex: d-wr--r--r (directory, only owner can write)</br>
 \- can also use three binary bits to represent +rwx (1 for yes, 0 for no)</br>
 \- these bits can also be written in decimal</br>
-
 
 
 

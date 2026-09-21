@@ -19,6 +19,7 @@
 `w` word/token right</br>
 `0` jump to first char on the line</br>
 `$` jump to last char on the line</br>
+`e` move to the end of the work </br>
 
 <u>Commands</u></br>
 `x` delete</br>

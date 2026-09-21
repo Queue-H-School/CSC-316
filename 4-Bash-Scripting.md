@@ -6,14 +6,7 @@ Last line: `fi`</br>
 Comments: marked by `#` (line only)</br>
 Permission: `chmod +x filename`</br>
 Run: `./filename`</br>
-
-<u>Piping</u></br>
-\- passes the output from one linux command as the input for the next</br>
-ex: `ls | grep ".txt"`</br>
-
-<u>Redirection</u></br>
-\- passes the output of a command into a file</br>
-\- `>` to overwrite and `>>` to append</br>
+Command Substitution: `$( command )`
 
 <u>Positional Parameters</u></br>
 `$0` name of the script</br>
@@ -28,7 +21,7 @@ Access: `$varname`</br>
 Set: `varname=value`</br>
 
 <u>Conditional Statements</u>
-```
+```bash
 if test expression
 then
     command
@@ -45,6 +38,12 @@ else
     command
 fi
 ```
+
+<u>Logical Operators</u></br>
+`-a` AND</br>
+`-o` OR</br>
+`-ge` greater than or equal to</br>
+`-le` less than or equal to</br>
 
 <u>The Read Command</u></br>
 `read varname` reads a line from stdin to the variable</br>
@@ -66,7 +65,7 @@ fi
 `-d` directory existence</br>
 `-e` path existence</br>
 `-f` regular file existence (not a directory)</br>
-`-O` file exists and is owned by current user</br>
+`-o` file exists and is owned by current user</br>
 `-r`, `-w`, `-x` file is read/write/executable</br>
 `-s` file is nonzero size</br>
 
@@ -78,9 +77,38 @@ fi
 
 <u>Exit Status</u></br>
 \- every commands return value (all have one) can be accessed with `$?`</br>
-\- `0` means success and anything else is an error code</br>
-\- `exit` terminates the script: mainly used to exit is some condition is true</br>
-\- `exit $?` will return script error status</br>
+`0` means success and anything else is an error code</br>
+`exit` terminates the script: mainly used to exit is some condition is true</br>
+`exit $?` will return script error status</br>
 
+<u>Notes</u></br>
+`-x` debug--prints out commands as they run</br>
+\- use double parenthesis to do math operations</br>
 
+<u>Arrays</u></br>
+`array_name=( "one" "two" "three" )` to initialize</br>
+`${ array_name[i] }` to access</br>
+`$array_name` will just retrieve the first value</br>
 
+## Loops
+<u>While</u>
+```bash
+while [ expression ]
+do 
+  commands
+done
+```
+<u>For each</u>
+```bash
+for var in $ [ values ]
+do 
+  command
+done
+```
+<u>For</u>
+```bash
+for i in $( seq start end inc )
+do
+  commands
+done
+```
