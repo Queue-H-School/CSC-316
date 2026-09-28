@@ -1,34 +1,34 @@
 # Vi(m) Commands
-<u>Exit</u></br>
-`:w` save file </br>
-`:wq` save and quit </br>
-`:q!` force quit</br>
+<u>Exit</u>  
+`:w` save file  
+`:wq` save and quit  
+`:q!` force quit
 
-<u>Insert</u></br>
-`o` open new line </br>
-`i` insert mode (before carat)</br>
-`a` add (after carat)</br>
-`Esc` command mode</br>
+<u>Insert</u>  
+`o` open new line  
+`i` insert mode (before carat)  
+`a` add (after carat)  
+`Esc` command mode
 
-<u>Cursor Nav</u></br>
-`h` left</br>
-`l` right</br>
-`k` up</br>
-`j` down</br>
-`b` word/token left</br>
-`w` word/token right</br>
-`0` jump to first char on the line</br>
-`$` jump to last char on the line</br>
-`e` move to the end of the work </br>
+<u>Cursor Nav</u>  
+`h` left  
+`l` right  
+`k` up  
+`j` down  
+`b` word/token left  
+`w` word/token right  
+`0` jump to first char on the line  
+`$` jump to last char on the line  
+`e` move to the end of the work 
 
-<u>Commands</u></br>
-`x` delete</br>
-`u` undo</br>
-`r` replace</br>
-`y` "yank" copy</br>
-`p` put</br>
+<u>Commands</u>  
+`x` delete  
+`u` undo  
+`r` replace  
+`y` "yank" copy  
+`p` put
 
-<u>Modes</u></br>
-Command (default): use nav and editing key commands (Esc)</br>
-Insert mode: type stuff (i, a, or o)</br>
-Ex mode: exit (colon from command mode)</br>
+<u>Modes</u>  
+Command (default): use nav and editing key commands (Esc)  
+Insert mode: type stuff (i, a, or o)  
+Ex mode: exit (colon from command mode)

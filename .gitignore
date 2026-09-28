@@ -1,5 +1,6 @@
 # Project specific
 .idea/
+/.obsidian/
 # course info that doesn't need to be public
 /Course-Overview.md
 

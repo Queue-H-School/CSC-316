@@ -9,47 +9,47 @@ int main(void) {
 }
 ```
 ## Data Types
-<u>Integers</u></br>
-*default signed, but can be unsigned*</br>
-\- int (4 bytes)</br>
-\- short int</br>
-\- long int</br>
-\- byte</br>
+<u>Integers</u>  
+*default signed, but can be unsigned*  
+\- int (4 bytes)  
+\- short int  
+\- long int  
+\- byte
 
-<u>Floats</u></br>
-\- float (single precision; 4 bytes)</br>
-\- double (double precision; 8 bytes)</br>
-\- long double (extended precision; ~12 bytes)</br>
+<u>Floats</u>  
+\- float (single precision; 4 bytes)  
+\- double (double precision; 8 bytes)  
+\- long double (extended precision; ~12 bytes)  
 *floats have precision loss*
 
-<u>Boolean</u></br>
-\- 1 bit</br>
-\- "true" or "false"</br>
+<u>Boolean</u>  
+\- 1 bit  
+\- "true" or "false"
 
-<u>Other Numbers</u></br>
-\- Octal</br>
-\- Hexadecimal (begin with 0x)</br>
-\- Binary (begin with 0b)</br>
+<u>Other Numbers</u>  
+\- Octal  
+\- Hexadecimal (begin with 0x)  
+\- Binary (begin with 0b)
 
-<u>Initializing a Float</u></br>
-\- can use many sci notation variants to describe floats</br>
-\- append L for long (double precision)</br>
-\- append F for float (single precision)</br>
+<u>Initializing a Float</u>  
+\- can use many sci notation variants to describe floats  
+\- append L for long (double precision)  
+\- append F for float (single precision)
 
 ## Character Handling
-<u>Chars</u></br>
-\- 1 byte</br>
-\- can declare with single quotes</br>
-\- can be signed or unsigned</br>
-\- designed to represent an ASCII value</br>
+<u>Chars</u>  
+\- 1 byte  
+\- can declare with single quotes  
+\- can be signed or unsigned  
+\- designed to represent an ASCII value
 
 ```c++
 # include <stdio.h>
 # include <ctype.h>
 ```
-`scanf(str, var)` $\rightarrow$ takes in a string from stdin</br>
-`printf(str, var)` $\rightarrow$ prints a string to stdout</br>
+`scanf(str, var)` $\rightarrow$ takes in a string from stdin  
+`printf(str, var)` $\rightarrow$ prints a string to stdout
 
-`getchar()` $\rightarrow$ scanf but for a single char</br>
-`putchar(ch)` $\rightarrow$ printf but for a single char</br>
-*can be simpler because strings in C are really weird*</br>
+`getchar()` $\rightarrow$ scanf but for a single char  
+`putchar(ch)` $\rightarrow$ printf but for a single char  
+*can be simpler because strings in C are really weird*

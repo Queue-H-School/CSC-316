@@ -1,58 +1,56 @@
 # Basic File System #
 
 ### Commands to Know ##
-**General Usage**</br>
-`ls -al dir` list dir contents</br>
-`pwd` print working directory </br>
-`cd dir` change directory </br>
-`rm -rf` remove (recursive, force)</br>
-`cp file destpath` copy/paste file</br>
-`mv file destpath` cut/paste file (can be used to rename)</br>
-`whoami` returns $USER</br>
-`chmod user+rwx file` add permissions (user and permissions optional) </br>
-</br>
-**File Commands**</br>
-`file filename` shows info about file</br>
-`mkdir dirname` make new directory</br>
-`touch filename` make new file</br>
-`vi filename` open text editor</br>
-`cat file` print contents of file</br>
-`cat > file` type input from console to file</br>
-`echo` print</br>
-`echo "string" > file` write to file (overwrite)</br>
-`echo "string" >> file` write to file (append)</br>
-</br>
-**SSH Commands**</br>
-`ssh -p port user@ip.address` secure shell with specified port number (optional)</br>
-`scp filename user@ip.address:filepath` secure copy</br>
-`exit` to log out of shell</br>
+**General Usage**  
+`ls -al dir` list dir contents  
+`pwd` print working directory  
+`cd dir` change directory  
+`rm -rf` remove (recursive, force)  
+`cp file destpath` copy/paste file  
+`mv file destpath` cut/paste file (can be used to rename)  
+`whoami` returns $USER  
+`chmod user+rwx file` add permissions (user and permissions optional) 
 
-<u>Piping</u></br>
-\- passes the output from one linux command as the input for the next</br>
-ex: `ls | grep ".txt"`</br>
+**File Commands**  
+`file filename` shows info about file  
+`mkdir dirname` make new directory  
+`touch filename` make new file  
+`vi filename` open text editor  
+`cat file` print contents of file  
+`cat > file` type input from console to file  
+`echo` print  
+`echo "string" > file` write to file (overwrite)  
+`echo "string" >> file` write to file (append)
 
-<u>Redirection</u></br>
-\- passes the output of a command into a file</br>
-\- `>` to overwrite and `>>` to append</br>
+**SSH Commands**  
+`ssh -p port user@ip.address` secure shell with specified port number (optional)  
+`scp filename user@ip.address:filepath` secure copy  
+`exit` to log out of shell
 
-**ENV Vars**
-`$PATH` stores directory shortcuts</br>
-`$HOME` establishes home dir</br>
-`$USER` username </br>
-`$HOSTNAME` device label for internal network use</br>
-`$PS1` prompt information</br>
+<u>Piping</u>  
+\- passes the output from one linux command as the input for the next  
+ex: `ls | grep ".txt"`
 
-**Vi Commands**</br>
-`i` to "insert"</br>
-`esc` to go back to command mode</br>
-`:wq` (write quit) to save and exit</br>
+<u>Redirection</u>  
+\- passes the output of a command into a file  
+\- `>` to overwrite and `>>` to append
 
-**Permission Representation**</br>
-\[link or directory\]\[owner\]\[group\]\[users\]</br>
-ex: lrwxr----- (symbolic link, owner has rwx, group has r only)</br>
-ex: d-wr--r--r (directory, only owner can write)</br>
-\- can also use three binary bits to represent +rwx (1 for yes, 0 for no)</br>
-\- these bits can also be written in decimal</br>
+**ENV Vars**  
+`$PATH` stores directory shortcuts  
+`$HOME` establishes home dir  
+`$USER` username  
+`$HOSTNAME` device label for internal network use  
+`$PS1` prompt information
 
+**Vi Commands**  
+`i` to "insert"  
+`esc` to go back to command mode  
+`:wq` (write quit) to save and exit
 
+**Permission Representation**  
+\[link or directory\]\[owner\]\[group\]\[users\]  
+ex: lrwxr----- (symbolic link, owner has rwx, group has r only)  
+ex: d-wr--r--r (directory, only owner can write)  
+\- can also use three binary bits to represent +rwx (1 for yes, 0 for no)  
+\- these bits can also be written in decimal
 
