@@ -1,6 +1,6 @@
 # C Programming
 
-```c++
+```c
 # include <stdio.h>
 
 int main(void) {
@@ -43,7 +43,7 @@ int main(void) {
 \- can be signed or unsigned  
 \- designed to represent an ASCII value
 
-```c++
+```c
 # include <stdio.h>
 # include <ctype.h>
 ```

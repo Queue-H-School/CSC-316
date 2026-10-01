@@ -30,7 +30,7 @@ else
 fi
 ```
 or
-```
+```bash
 if [ string/numeric expression ]
 then
     command
