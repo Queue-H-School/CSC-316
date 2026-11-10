@@ -76,11 +76,11 @@ int arr[length] = {0};
 int arr[length] = {[0] = 1, [2] = 3}
 ```
 
-<u>Sizeof</u>
-`int length = sizeof(arr)`
-\- only works in the initial scope
-\- returns the length in bytes, so divide by element size
-`int length = sizeof(arr) / sizeof(arr[0])`
+<u>Sizeof</u>  
+`int length = sizeof(arr)`  
+\- only works in the initial scope  
+\- returns the length in bytes, so divide by element size  
+`int length = sizeof(arr) / sizeof(arr[0])`  
 `define SIZE ((int) (sizeof(arr) / sizeof(arr[0]))`
 
 <u>Passing Arrays</u>  
@@ -89,9 +89,13 @@ int arr[length] = {[0] = 1, [2] = 3}
 <u>Array Out of Bounds</u>  
 \- out of bounds can cause weird problems, but won't throw an error
 
-<u>Matrices</u>
-\- array of arrays
-`int m[5][9];`
-\- still in contiguous memory
-`m[0, 9] = m[1, 0]`
+<u>Matrices</u>  
+\- array of arrays  
+`int m[5][9];`  
+\- still in contiguous memory  
+`m[0, 9] = m[1, 0]`  
 \- can still initialize directly (as a 2d or 1d array)
+
+## Strings
+
+## Functions
