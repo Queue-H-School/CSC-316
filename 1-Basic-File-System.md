@@ -2,30 +2,30 @@
 
 ### Commands to Know ##
 **General Usage**  
-`ls -al dir` list dir contents  
-`pwd` print working directory  
-`cd dir` change directory  
-`rm -rf` remove (recursive, force)  
-`cp file destpath` copy/paste file  
-`mv file destpath` cut/paste file (can be used to rename)  
-`whoami` returns $USER  
-`chmod user+rwx file` add permissions (user and permissions optional) 
+`{sh}ls -al dir` list dir contents  
+`{sh}pwd` print working directory  
+`{sh}cd dir` change directory  
+`{sh}rm -rf` remove (recursive, force)  
+`{sh}cp file destpath` copy/paste file  
+`{sh}mv file destpath` cut/paste file (can be used to rename)  
+`{sh}whoami` returns $USER  
+`{sh}chmod user+rwx file` add permissions (user and permissions optional) 
 
 **File Commands**  
-`file filename` shows info about file  
-`mkdir dirname` make new directory  
-`touch filename` make new file  
-`vi filename` open text editor  
-`cat file` print contents of file  
-`cat > file` type input from console to file  
-`echo` print  
-`echo "string" > file` write to file (overwrite)  
-`echo "string" >> file` write to file (append)
+`{sh}file filename` shows info about file  
+`{sh}mkdir dirname` make new directory  
+`{sh}touch filename` make new file  
+`{sh}vi filename` open text editor  
+`{sh}cat file` print contents of file  
+`{sh}cat > file` type input from console to file  
+`{sh}echo` print  
+`{sh}echo "string" > file` write to file (overwrite)  
+`{sh}echo "string" >> file` write to file (append)
 
 **SSH Commands**  
-`ssh -p port user@ip.address` secure shell with specified port number (optional)  
-`scp filename user@ip.address:filepath` secure copy  
-`exit` to log out of shell
+`{sh}ssh -p port user@ip.address` secure shell with specified port number (optional)  
+`{sh}scp filename user@ip.address:filepath` secure copy  
+`{sh}exit` to log out of shell
 
 <u>Piping</u>  
 \- passes the output from one linux command as the input for the next  

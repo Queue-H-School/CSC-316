@@ -1,0 +1,111 @@
+﻿1,Hydrogen,H,Non-Metal,1.00794,1,0,0,0,0,0,0
+2,Helium,He,Noble Gas,4.002602,2,0,0,0,0,0,0
+3,Lithium,Li,Alkali Metal,6.941,2,1,0,0,0,0,0
+4,Beryllium,Be,Alkali Earth Metal,9.012182,2,2,0,0,0,0,0
+5,Boron,B,Non-Metal,10.811,2,3,0,0,0,0,0
+6,Carbon,C,Non-Metal,12.011,2,4,0,0,0,0,0
+7,Nitrogen,N,Non-Metal,14.00674,2,5,0,0,0,0,0
+8,Oxygen,O,Non-Metal,15.9994,2,6,0,0,0,0,0
+9,Fluorine,F,Halogen,18.998404,2,7,0,0,0,0,0
+10,Neon,Ne,Noble Gas,20.179701,2,8,0,0,0,0,0
+11,Sodium,Na,Alkali Metal,22.989767,2,8,1,0,0,0,0
+12,Magnesium,Mg,Alkali Earth Metal,24.305,2,8,2,0,0,0,0
+13,Aluminum,Al,Metal,26.981539,2,8,3,0,0,0,0
+14,Silicon,Si,Non-Metal,28.085501,2,8,4,0,0,0,0
+15,Phosphorus,P,Non-Metal,30.973763,2,8,5,0,0,0,0
+16,Sulfur,S,Non-Metal,32.066002,2,8,6,0,0,0,0
+17,Chlorine,Cl,Halogen,35.452702,2,8,7,0,0,0,0
+18,Argon,Ar,Noble Gas,39.948002,2,8,8,0,0,0,0
+19,Potassium,K,Alkali Metal,39.098301,2,8,8,1,0,0,0
+20,Calcium,Ca,Alkali Earth Metal,40.077999,2,8,8,2,0,0,0
+21,Scandium,Sc,Transition Metal,44.95591,2,8,9,2,0,0,0
+22,Titanium,Ti,Transition Metal,47.880001,2,8,10,2,0,0,0
+23,Vanadium,V,Transition Metal,50.941502,2,8,11,2,0,0,0
+24,Chromium,Cr,Transition Metal,51.996101,2,8,13,1,0,0,0
+25,Manganese,Mn,Transition Metal,54.938049,2,8,13,2,0,0,0
+26,Iron,Fe,Transition Metal,55.847,2,8,14,2,0,0,0
+27,Cobalt,Co,Transition Metal,58.933201,2,8,15,2,0,0,0
+28,Nickel,Ni,Transition Metal,58.693401,2,8,16,2,0,0,0
+29,Copper,Cu,Transition Metal,63.546001,2,8,18,1,0,0,0
+30,Zinc,Zn,Metal,65.389999,2,8,18,2,0,0,0
+31,Gallium,Ga,Metal,69.723,2,8,18,3,0,0,0
+32,Germanium,Ge,Metal,72.610001,2,8,18,4,0,0,0
+33,Arsenic,As,Non-Metal,74.921593,2,8,18,5,0,0,0
+34,Selenium,Se,Non-Metal,78.959999,2,8,18,6,0,0,0
+35,Bromine,Br,Halogen,79.903999,2,8,18,7,0,0,0
+36,Krypton,Kr,Noble Gas,83.800003,2,8,18,8,0,0,0
+37,Rubidium,Rb,Alkali Metal,85.467796,2,8,18,8,1,0,0
+38,Strontium,Sr,Alkali Earth Metal,87.620003,2,8,18,8,2,0,0
+39,Yttrium,Y,Transition Metal,88.905853,2,8,18,9,2,0,0
+40,Zirconium,Zr,Transition Metal,91.223999,2,8,18,10,2,0,0
+41,Niobium,Nb,Transition Metal,92.90638,2,8,18,12,1,0,0
+42,Molybdenum,Mo,Transition Metal,95.940002,2,8,18,13,1,0,0
+43,Technetium,Tc,Transition Metal,97.907204,2,8,18,13,2,0,0
+44,Ruthenium,Ru,Transition Metal,101.07,2,8,18,15,1,0,0
+45,Rhodium,Rh,Transition Metal,102.905502,2,8,18,16,1,0,0
+46,Palladium,Pd,Transition Metal,106.419998,2,8,18,18,0,0,0
+47,Silver,Ag,Transition Metal,107.868202,2,8,18,18,1,0,0
+48,Cadmium,Cd,Metal,112.411003,2,8,18,18,2,0,0
+49,Indium,In,Metal,114.818001,2,8,18,18,3,0,0
+50,Tin,Sn,Metal,118.709999,2,8,18,18,4,0,0
+51,Antimony,Sb,Metal,121.757004,2,8,18,18,5,0,0
+52,Tellurium,Te,Non-Metal,127.599998,2,8,18,18,6,0,0
+53,Iodine,I,Halogen,126.904472,2,8,18,18,7,0,0
+54,Xenon,Xe,Noble Gas,131.289993,2,8,18,18,8,0,0
+55,Cesium,Cs,Alkali Metal,132.905426,2,8,18,18,8,1,0
+56,Barium,Ba,Alkali Earth Metal,137.326996,2,8,18,18,8,2,0
+57,Lanthanum,La,Transition Metal,138.905502,2,8,18,18,9,2,0
+58,Cerium,Ce,Rare Earth,140.115005,2,8,18,20,8,2,0
+59,Praseodymium,Pr,Rare Earth,140.907654,2,8,18,21,8,2,0
+60,Neodymium,Nd,Rare Earth,144.240005,2,8,18,22,8,2,0
+61,Promethium,Pm,Rare Earth,144.912704,2,8,18,23,8,2,0
+62,Samarium,Sm,Rare Earth,150.360001,2,8,18,24,8,2,0
+63,Europium,Eu,Rare Earth,151.964996,2,8,18,25,8,2,0
+64,Gadolinium,Gd,Rare Earth,157.25,2,8,18,25,9,2,0
+65,Terbium,Tb,Rare Earth,158.925339,2,8,18,27,8,2,0
+66,Dysprosium,Dy,Rare Earth,162.5,2,8,18,28,8,2,0
+67,Holmium,Ho,Rare Earth,164.930313,2,8,18,29,8,2,0
+68,Erbium,Er,Rare Earth,167.259995,2,8,18,30,8,2,0
+69,Thulium,Tm,Rare Earth,168.934204,2,8,18,31,8,2,0
+70,Ytterbium,Yb,Rare Earth,173.039993,2,8,18,32,8,2,0
+71,Lutetium,Lu,Rare Earth,174.966995,2,8,18,32,9,2,0
+72,Hafnium,Hf,Transition Metal,178.490005,2,8,18,32,10,2,0
+73,Tantalum,Ta,Transition Metal,180.947906,2,8,18,32,11,2,0
+74,Tungsten,W,Transition Metal,183.839996,2,8,18,32,12,2,0
+75,Rhenium,Re,Transition Metal,186.207001,2,8,18,32,13,2,0
+76,Osmium,Os,Transition Metal,190.229996,2,8,18,32,14,2,0
+77,Iridium,Ir,Transition Metal,192.220001,2,8,18,32,15,2,0
+78,Platinum,Pt,Transition Metal,195.080002,2,8,18,32,17,1,0
+79,Gold,Au,Transition Metal,196.966537,2,8,18,32,18,1,0
+80,Mercury,Hg,Metal,200.589996,2,8,18,32,18,2,0
+81,Thallium,Tl,Metal,204.383301,2,8,18,32,18,3,0
+82,Lead,Pb,Metal,207.199997,2,8,18,32,18,4,0
+83,Bismuth,Bi,Metal,208.980377,2,8,18,32,18,5,0
+84,Polonium,Po,Metal,208.982407,2,8,18,32,18,6,0
+85,Astatine,At,Halogen,209.987106,2,8,18,32,18,7,0
+86,Radon,Rn,Noble Gas,222.017593,2,8,18,32,18,8,0
+87,Francium,Fr,Alkali Metal,223.019699,2,8,18,32,18,8,1
+88,Radium,Ra,Alkali Earth Metal,226.025406,2,8,18,32,18,8,2
+89,Actinium,Ac,Transition Metal,227.027802,2,8,18,32,18,9,2
+90,Thorium,Th,Rare Earth,232.038101,2,8,18,32,18,10,2
+91,Protactinium,Pa,Rare Earth,231.035873,2,8,18,32,20,9,2
+92,Uranium,U,Rare Earth,238.0289,2,8,18,32,21,9,2
+93,Neptunium,Np,Rare Earth,237.048203,2,8,18,32,22,9,2
+94,Plutonium,Pu,Rare Earth,244.064194,2,8,18,32,24,8,2
+95,Americium,Am,Rare Earth,243.061401,2,8,18,32,25,8,2
+96,Curium,Cm,Rare Earth,247.070297,2,8,18,32,25,9,2
+97,Berkelium,Bk,Rare Earth,247.070297,2,8,18,32,26,9,2
+98,Californium,Cf,Rare Earth,251.079605,2,8,18,32,28,8,2
+99,Einsteinium,Es,Rare Earth,252.082993,2,8,18,32,29,8,2
+100,Fermium,Fm,Rare Earth,257.095093,2,8,18,32,30,8,2
+101,Mendelevium,Md,Rare Earth,258.098389,2,8,18,32,31,8,2
+102,Nobelium,No,Rare Earth,259.101105,2,8,18,32,32,8,2
+103,Lawrencium,Lr,Rare Earth,262.109802,2,8,18,32,32,9,2
+104,Rutherfordium,Rf,Transition Metal,261.108887,2,8,18,32,32,10,2
+105,Hahnium,Ha,Transition Metal,262.11441,2,8,18,32,32,11,2
+106,Seaborgium,Sg,Transition Metal,263.118591,2,8,18,32,32,12,2
+107,Nielsbohrium,Ns,Transition Metal,262.123108,2,8,18,32,32,13,2
+108,Hessium,Hs,Transition Metal,265.130615,2,8,18,32,32,14,2
+109,Mietnerium,Mt,Transition Metal,266.137787,2,8,18,32,32,15,2
+110,Unnunnilium,Unn,Transition Metal,268,2,8,18,32,32,16,2
+111,Unnununium,Unu,Transition Metal,269,2,8,18,32,32,17,2

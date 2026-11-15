@@ -2,8 +2,8 @@
 
 ## Preprocessor
 \- brings in library files  
-\- `#include` indicates an import  
-\- `#define` indicates a macro  
+\- `{c}#include` indicates an import  
+\- `{c}#define` indicates a macro  
 \- no semicolon, no equals
 ```mermaid
 flowchart
@@ -30,7 +30,7 @@ flowchart
 ## Macros
 \- directly replaced with their value during preprocessing
 
-`#define [identifier] [replacement-list]`
+`{c}#define [identifier] [replacement-list]`
 
 <u>Parameterized</u>  
 \- missing parameter is replaced with nothing

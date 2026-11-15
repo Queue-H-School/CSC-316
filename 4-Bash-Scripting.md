@@ -20,8 +20,7 @@ Creation: `varname=value` or `read varname`
 Access: `$varname`  
 Set: `varname=value`
 
-<u>Conditional Statements</u>
-```bash
+```sh title:Conditional Statements
 if test expression
 then
     command
@@ -30,7 +29,7 @@ else
 fi
 ```
 or
-```bash
+```sh title:Conditional
 if [ string/numeric expression ]
 then
     command
@@ -91,22 +90,22 @@ fi
 `$array_name` will just retrieve the first value
 
 ## Loops
-<u>While</u>
-```bash
+
+```sh title:While
 while [ expression ]
 do 
   commands
 done
 ```
-<u>For each</u>
-```bash
+
+```sh title:ForEach
 for var in $ [ values ]
 do 
   command
 done
 ```
-<u>For</u>
-```bash
+
+```sh title:For
 for i in $( seq start end inc )
 do
   commands

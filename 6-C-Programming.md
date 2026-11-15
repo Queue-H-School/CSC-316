@@ -48,19 +48,18 @@ int main(void) {
 # include <ctype.h>
 ```
 
-`scanf(str, var)` $\rightarrow$ takes in a string from stdin  
-`printf(str, var)` $\rightarrow$ prints a string to stdout
+`{c} scanf(str, var)` $\rightarrow$ takes in a string from stdin  
+`{c}printf(str, var)` $\rightarrow$ prints a string to stdout
 
-`getchar()` $\rightarrow$ scanf but for a single char  
-`putchar(ch)` $\rightarrow$ printf but for a single char  
+`{c} getchar()` $\rightarrow$ scanf but for a single char  
+`{c}putchar(ch)` $\rightarrow$ printf but for a single char  
 *can be simpler because strings in C are really weird*
 
 ## Arrays
 \- take up a contiguous space in memory  
 \- homogenous data type
 
-<u>Initialization</u>
-```c
+```c title:Initialization
 int length = 5;
 
 // most common
@@ -77,11 +76,11 @@ int arr[length] = {[0] = 1, [2] = 3}
 ```
 
 <u>Sizeof</u>  
-`int length = sizeof(arr)`  
+`{c}int length = sizeof(arr)`  
 \- only works in the initial scope  
 \- returns the length in bytes, so divide by element size  
-`int length = sizeof(arr) / sizeof(arr[0])`  
-`define SIZE ((int) (sizeof(arr) / sizeof(arr[0]))`
+`{c}int length = sizeof(arr) / sizeof(arr[0])`  
+`{c}define SIZE ((int) (sizeof(arr) / sizeof(arr[0]))`
 
 <u>Passing Arrays</u>  
 \- hold a length variable to pass along
@@ -91,11 +90,25 @@ int arr[length] = {[0] = 1, [2] = 3}
 
 <u>Matrices</u>  
 \- array of arrays  
-`int m[5][9];`  
+`{c}int m[5][9];`  
 \- still in contiguous memory  
-`m[0, 9] = m[1, 0]`  
+`{c}m[0, 9] = m[1, 0]`  
 \- can still initialize directly (as a 2d or 1d array)
 
 ## Strings
 
 ## Functions
+
+## Structs
+
+```c title:BuildStruct
+struct p = buildStruct(param1, param2, param3);
+
+struct buildStruct(param1, param2, param3) {
+	struct part p;
+	p.param1 = param1;
+	p.param2 = param2;
+	p.param3 = param3;
+	return p;
+}
+```
